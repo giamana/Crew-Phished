@@ -4,6 +4,9 @@ An airline employee phishing-awareness simulator. It helps airline staff
 spot phishing attempts and shows security teams which employees are most
 at risk.
 
+##Live link
+https://giamana.github.io/Crew-Phished/
+
 ## What's in it
 - Landing, About, Resources, and Watch Demo pages
 - Platform dashboard with highest-risk and lowest-risk employee views
