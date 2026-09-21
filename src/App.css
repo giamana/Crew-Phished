@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+#mainPic {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#mainPic img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  z-index: -1;       
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin-top: 70px;       
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;          
+  height: 50%;          
+  border: 0;
+}
+
